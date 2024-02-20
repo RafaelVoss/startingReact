@@ -11,7 +11,7 @@ export default function Examples () {
   
     if (selectedTopic) {
       tabContent = (
-      <div id="tab-content">
+    <div id="tab-content">
       <h3>{EXAMPLES[selectedTopic].title}</h3>
       <p>{EXAMPLES[selectedTopic].description}</p>
       <pre>
